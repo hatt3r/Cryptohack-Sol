@@ -1,0 +1,8 @@
+### encoding using base64
+
+problem statement states that we should first convert the hex string to bytesand then convert the resultant ascii using encoding with base64
+
+python has base64 package which we import and then use its function b64encode on it
+
+
+hence we get the FLAG = "crypto/Base+64+Encoding+is+Web+Safe/"

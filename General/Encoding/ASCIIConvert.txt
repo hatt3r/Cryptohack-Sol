@@ -1,0 +1,12 @@
+### converting ascii characters to readable string
+
+we use python coding for this
+
+mentioning the array in array
+then for every value in the array join it after converting the ascii to char
+
+so the final string will be attached to each other of conversion
+
+we use chr() function to convert ascii to char
+
+and hence the FLAG = "crypto{ASCII_pr1nt4bl3}" 

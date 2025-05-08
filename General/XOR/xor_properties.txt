@@ -1,0 +1,25 @@
+### using xor properties
+
+
+problem statement gives
+
+KEY1 = a6c8b6733c9b22de7bc0253266a3867df55acde8635e19c73313
+KEY2 ^ KEY1 = 37dcb292030faa90d07eec17e3b1c6d8daf94c35d4c9191a5e1e
+KEY2 ^ KEY3 = c1545756687e7573db23aa1c3452a098b71a7fbf0fddddde5fc1
+FLAG ^ KEY1 ^ KEY3 ^ KEY2 = 04ee9855208a2cd59091d04767ae47963170d1660df7f56f5faf
+
+
+we have to use its xor properties to figure out the flag 
+
+to find key2 we first have to convert key1 hex to bytes and then use asscociative property 
+xoring key1xor2 with key1 to get key2
+similarly key2xor3 with key2 from earlier operation to get key3
+
+now we find the key1xorkey2xorkey3 value which is simply xoring key1 key2 and key3 while also converting from hex to bytes 
+
+
+we find the flagbytes by xoring flagxorkey1xorkey2xorkey3 and key123 that we got from earlier
+decode function to get from bytes
+
+hence we get the FLAG = "crypto{x0r_i5_ass0c1at1v3}"
+

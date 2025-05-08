@@ -1,0 +1,13 @@
+## Modular arithematic 1 
+
+we are using congruent mod to find b if  a congruent b to modulo c
+
+we have to mod a and b separately with c to check its congruency
+
+hence we can find b from a mod c
+
+we implement this in python using simple mod operation to a and c 
+
+we get b values for both problems to be 5 and 4 
+
+hence the lowest is 4

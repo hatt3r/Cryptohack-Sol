@@ -1,0 +1,7 @@
+## Long Integers to string
+
+problem statement states we are given a long integer and are supposed to convert their bytes to hexadecimal and then concatenate but this could be solved using a package PyCryptoDome and its funtion long_to_bytes() and print them 
+
+we should pip install that package and then use the function by importing them into the python code
+
+Hence we get the FLAG = "crypto{3nc0d1n6_4ll_7h3_w4y_d0wn}"

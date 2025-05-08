@@ -1,0 +1,20 @@
+## extended euclidean algorithm with gcd
+
+problem statement states that we should find the values of u and v values from the equation
+a*u + b*v = gcd(a,b)
+
+for this we create a simple euclidean algorithm to calculate gcd but we update the u and v values along the way
+
+creating a function if a is divisible by 0 then return b ,0,1 
+the gcd value as well as u1 and v1 will be recursive function value with inputs of b%a and a
+
+we update the u value as v1-(a//b)*u1
+v as u1
+
+we return the gcd value as well as u and v
+
+
+the driver code will take a and b
+value of gcd ,u and v will be given by thefunction gcdextended with the inputs a and b
+
+we print the u and v as well as the gcd value

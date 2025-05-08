@@ -1,0 +1,8 @@
+### converting hexstring to readable format using bytes.fromhex() function
+
+
+adding the hex as a string 
+then using the bytes.fromhex() function to convert and 
+then the print function to print the result
+
+getting FLAG = "crypto{You_will_be_working_with_hex_strings_a_lot}"

@@ -1,0 +1,14 @@
+### iteration for each byte from given
+
+problem statement states we should find the flag by iterating each byte from the hex string and xoring
+
+
+
+first we convert the the hex string to bytes using bytes.fromhex() function
+then we create a for loop iterating possibility from 0 to 99 
+and xoring each with the bytes
+
+
+from a multiple possible values we find the outputs
+
+hence the FLAG = "crypto{0x10_15_my_f4v0ur173_by7e}"

@@ -1,0 +1,21 @@
+## Greatest common divisor
+
+the problem statement states that we should use euclids method to solve greatest common divisor of any two number
+
+so to find them we create a python program that takes two inputs and use euclids method to find gcd
+
+we create a function called gcd to actually calculate gcd with two inputs a and b
+def gcd(a,b):
+
+in that function we create if conditions to check if both are zeros or are divisible by 0 then return
+
+now if a is greater than b then we do a recursive function with gcd(a-b,b) 
+otherwise if b isss greater than a then we gcd(a,b-a)
+
+until we get both of them divisible by 0
+
+we take inputs a and b outside this function to test it
+
+if the gcd(a,b) is returning a value then we print it out
+otherwise we print("not found")
+

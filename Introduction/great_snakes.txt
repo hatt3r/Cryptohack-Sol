@@ -1,0 +1,6 @@
+### finding the flag
+
+we have to find the flag using python3 to run the given file to extract the flag as the output
+
+
+FLAG = "crypto{z3n_0f_pyth0n}"

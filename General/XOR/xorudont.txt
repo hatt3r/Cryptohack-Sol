@@ -1,0 +1,24 @@
+### either know xor xor u dont
+
+
+problem statement states that we should decipher the text with a key that is unkown to us
+
+so we create python program just to guess that key 
+we first convert the cipher from hex to bytes
+as the hint was given as to remember the flag format we should xor with 'crypto{'
+
+xoring bytes from the secret and crypto{ we get the key 'myXORke'
+
+now we create another python program to calculate the flag
+
+we use the key in bytes form so b'myXORke'
+
+
+xoring each bytes with key bytes using enumerate and end='' to wrap around the bytes if too long
+
+we get flag = "crypto{1f_y0u_Kn0w_En0uGH_y0u_Kn0w_1t_4ll}"
+
+
+otherwise use encode and decode function from pwn package from xor
+
+

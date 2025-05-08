@@ -1,0 +1,13 @@
+### xoring the string with
+
+
+problem statement states that we should xor each character of the string "label" with 13 and print the result as a string
+
+
+for python we used xor function of the package pwntools
+
+that would be from pwn import xor
+
+printing the xor value would come as 'aloha'
+
+hence the FLAG = "crypto{aloha}"
